@@ -59,7 +59,7 @@ https://youtu.be/3lJiF0tF6Fg?si=N6i2P8_E0bV9hRHU
             runApp(const MyApp());
         } 
 
-- Y dentro del botón he puesto, qu cuando se presione, se añada a la colección un dato
+- Y dentro del botón he puesto, que cuando se presione, se añada a la colección un dato
 
         FirebaseFirestore.instance.collection("usuarios").add({
             'email':'micorreo@otro.com',
