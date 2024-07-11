@@ -57,7 +57,7 @@ La versión mínima es flutter.minSdkVersion he averiguado qeu es al 21, que la 
 
 - Da un error al hacer la implementación en el móvil ANDROID. Dentro de la carpeta android buscar **settings.gradle** y cambiar la versión del kotlin a 1.8.0 **id "org.jetbrains.kotlin.android" version "1.8.0" apply false**
 
-# Creando FireStore Database emn FireBase
+# Creando FireStore Database en FireBase
 https://youtu.be/3lJiF0tF6Fg?si=N6i2P8_E0bV9hRHU
 
 ## Creo una base de datos en FireStore Database
