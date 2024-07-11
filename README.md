@@ -72,10 +72,11 @@ https://youtu.be/3lJiF0tF6Fg?si=N6i2P8_E0bV9hRHU
 
 # Código para usar la base de datos
 
-- Dentro de void main
+- Dentro de void main. La primera línea asegura la actualización de dependencias y la segunda que se inicia Firebase
+
         void main(){ 
-            WidgetsFlutterBinding.ensureInitialized(); --> Esta línea asegura que se satisfacen las dependencias
-            Firebase.initializeApp(); --> Esta inicializa FireBase
+            WidgetsFlutterBinding.ensureInitialized(); 
+            Firebase.initializeApp(); 
             runApp(const MyApp());
         } 
 
